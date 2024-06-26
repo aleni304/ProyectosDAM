@@ -71,6 +71,7 @@
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
         app:layout_constraintEnd_toStartOf="@+id/imageView3"
         app:layout_constraintTop_toTopOf="@+id/imageView3"
         app:srcCompat="@drawable/facebook" />
@@ -79,7 +80,7 @@
         android:id="@+id/imageView3"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="36dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonLogin"
@@ -90,6 +91,7 @@
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:layout_constraintTop_toTopOf="@+id/imageView3"
         app:srcCompat="@drawable/twitter" />
